@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="defaultClockDialStrokeWidth" format="float" type="dimen">12.0</item>
+    <item name="defaultClockHourHandStrokeWidth" format="float" type="dimen">8.0</item>
+    <item name="defaultClockMinuteHandStrokeWidth" format="float" type="dimen">4.5</item>
+    <item name="defaultClockSecondHandStrokeWidth" format="float" type="dimen">2.0</item>
+</resources>

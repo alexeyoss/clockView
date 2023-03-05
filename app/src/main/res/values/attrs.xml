@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="clockRadius" format="dimension" />
+        <!--Clock Dial color & stroke width -->
+        <attr name="clockDialColor" format="color" />
+        <attr name="clockDialStrokeWidth" format="float" />
+        <!--Type of clock number: by default set  -->
+        <attr name="clockTypeOfNumbers" format="enum">
+            <enum name="arabicNumbers" value="0" />
+            <enum name="romanNumbers" value="1" />
+        </attr>
+
+        <!--Hour hand color & stroke width -->
+        <attr name="clockHourHandColor" format="color" />
+        <attr name="clockHourHandStrokeWidth" format="float" />
+
+        <!--Minute hand color & stroke width -->
+        <attr name="clockMinuteHandColor" format="color" />
+        <attr name="clockMinuteHandStrokeWidth" format="float" />
+
+        <!--Second hand color & stroke width -->
+        <attr name="clockSecondHandColor" format="color" />
+        <attr name="clockSecondHandStrokeWidth" format="float" />
+
+        <!--Second hand color & stroke width -->
+        <attr name="clockNumbersColor" format="color" />
+        <attr name="clockNumberSize" format="float" />
+
+        <!-- Style reference for use in themes-->
+        <attr name="clockViewStyle" format="reference" />
+    </declare-styleable>
+</resources>
